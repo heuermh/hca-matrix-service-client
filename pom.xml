@@ -9,9 +9,9 @@
   <groupId>com.github.heuermh.hcamatrixserviceclient</groupId>
   <artifactId>hca-matrix-service-client</artifactId>
   <packaging>jar</packaging>
-  <name>Human Cell Atlas DCP Expression Matrix Service client</name>
+  <name>Human Cell Atlas Matrix Service API client</name>
   <version>1.0-SNAPSHOT</version>
-  <description>Human Cell Atlas DCP Expression Matrix Service client</description>
+  <description>Human Cell Atlas Matrix Service API client</description>
   <url>https://github.com/heuermh/hca-matrix-service-client</url>
   <inceptionYear>2019</inceptionYear>
   <scm>
