@@ -45,6 +45,7 @@
     <retrofit-version>2.6.1</retrofit-version>
     <threetenbp-version>1.4.0</threetenbp-version>
     <oltu-version>1.0.2</oltu-version>
+    <jdk.version>1.8</jdk.version>
     <junit-version>4.12</junit-version>
   </properties>
   <build>
@@ -166,6 +167,12 @@
               <inputSpec>${project.basedir}/matrix-service/config/matrix-api.yml</inputSpec>
               <language>java</language>
               <library>retrofit2</library>
+              <configOptions>
+                <dateLibrary>java8</dateLibrary>
+                <fullJavaUtil>true</fullJavaUtil>
+                <java8>true</java8>
+                <useGzipFeature>true</useGzipFeature>
+              </configOptions>
             </configuration>
           </execution>
         </executions>
@@ -207,11 +214,6 @@
       <groupId>io.gsonfire</groupId>
       <artifactId>gson-fire</artifactId>
       <version>${gson-fire-version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.threeten</groupId>
-      <artifactId>threetenbp</artifactId>
-      <version>${threetenbp-version}</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
