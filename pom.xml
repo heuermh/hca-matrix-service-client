@@ -46,7 +46,7 @@
     <threetenbp-version>1.4.0</threetenbp-version>
     <oltu-version>1.0.2</oltu-version>
     <jdk.version>1.8</jdk.version>
-    <junit-version>4.12</junit-version>
+    <junit-version>4.13.1</junit-version>
   </properties>
   <build>
     <pluginManagement>
